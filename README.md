@@ -24,7 +24,7 @@ A simple weather server using FastMCP and the Open-Meteo API. This project provi
 
 2. **Create a virtual environment in the project root:**
    ```sh
-   python -m venv .venv
+   .venv\Scripts\activate.bat
    ```
 
 3. **Activate the virtual environment:**
