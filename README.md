@@ -4,7 +4,7 @@ A simple weather server using FastMCP and the Open-Meteo API. This project provi
 
 ## Project structure
 
-
+![Alt text](projectstructure.png)
 ## Features
 - Fetches current weather data for a given latitude and longitude using the Open-Meteo API
 - Implements the FastMCP server interface
