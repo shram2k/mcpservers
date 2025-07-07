@@ -60,6 +60,7 @@ http://localhost:6274/?MCP_PROXY_AUTH_TOKEN=YOUR_TOKEN#tools
 ![Alt text](localrun.png)
 
 ## Claude Desktop (Windows)
+Add following in "C:\Users\rsharma\AppData\Roaming\Claude\claude_desktop_config.json"  (Change path as per your system in following configuration)
  "weather": {
       "command": "/Users/rsharma/.local/bin/uv",
       "args": [
