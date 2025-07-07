@@ -72,7 +72,8 @@ http://localhost:6274/?MCP_PROXY_AUTH_TOKEN=YOUR_TOKEN#tools
       ]
     }
 
-    ![Alt text](Claude.png)
+![Alt text](Claude.png)
+
 ## Troubleshooting
 - Ensure you are using Python 3.10 or newer.
 - Activate the correct virtual environment before installing dependencies or running the server.
