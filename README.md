@@ -52,6 +52,8 @@ A simple weather server using FastMCP and the Open-Meteo API. This project provi
 To start the WeatherMCP server:
 mcp dev weathermcp.py
 
+![Alt text](command.png)
+
 The server will start and listen for MCP requests. You can test it using an MCP-compatible client or via a web interface (if available), e.g.:
 ```
 http://localhost:6274/?MCP_PROXY_AUTH_TOKEN=YOUR_TOKEN#tools
