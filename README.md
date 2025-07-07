@@ -37,6 +37,7 @@ A simple weather server using FastMCP and the Open-Meteo API. This project provi
 4. **Install dependencies:**
    ```sh
    pip install -r requirements.txt
+   uv install mcp  
    ```
 
 5. **(Optional, for local SSL issues)**
@@ -56,6 +57,22 @@ The server will start and listen for MCP requests. You can test it using an MCP-
 http://localhost:6274/?MCP_PROXY_AUTH_TOKEN=YOUR_TOKEN#tools
 ```
 
+![Alt text](localrun.png)
+
+## Claude Desktop (Windows)
+ "weather": {
+      "command": "/Users/rsharma/.local/bin/uv",
+      "args": [
+        "run",
+        "--with",
+        "mcp[cli]",
+        "mcp",
+        "run",
+        "D:\\mcp-servers\\weathermcp\\weathermcp.py"
+      ]
+    }
+
+    ![Alt text](claude.png)
 ## Troubleshooting
 - Ensure you are using Python 3.10 or newer.
 - Activate the correct virtual environment before installing dependencies or running the server.
